@@ -58,5 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-#Custom
+# Custom
 *.DS_Store
+*Library*
+*Temp*
+*Packages*
+*obj*
+*UserSettings*
