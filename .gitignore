@@ -62,6 +62,6 @@ crashlytics-build.properties
 *.DS_Store
 *Library*
 *Temp*
-*Packages*
 *obj*
+*Logs*
 *UserSettings*
