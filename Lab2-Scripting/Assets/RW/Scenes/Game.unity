@@ -1600,6 +1600,29 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5409877757036189934, guid: c91d458c12526534eb19d65378204353,
+        type: 3}
+      propertyPath: modelParent
+      value: 
+      objectReference: {fileID: 5233456974663517128}
+    - target: {fileID: 5409877757036189934, guid: c91d458c12526534eb19d65378204353,
+        type: 3}
+      propertyPath: blueModelPrefab
+      value: 
+      objectReference: {fileID: 5233456973075758890, guid: 5c5170d876533ae43bc2e4b15c8e6f6e,
+        type: 3}
+    - target: {fileID: 5409877757036189934, guid: c91d458c12526534eb19d65378204353,
+        type: 3}
+      propertyPath: redModelPrefab
+      value: 
+      objectReference: {fileID: 3278733490917006391, guid: 5162234e78cffba45b0498c4775c0be7,
+        type: 3}
+    - target: {fileID: 5409877757036189934, guid: c91d458c12526534eb19d65378204353,
+        type: 3}
+      propertyPath: yellowModelPrefab
+      value: 
+      objectReference: {fileID: 5917108387044516939, guid: 28d1a170d9eea59478aa66152b57f446,
+        type: 3}
     - target: {fileID: 6020313712292669828, guid: c91d458c12526534eb19d65378204353,
         type: 3}
       propertyPath: m_Name
@@ -1608,6 +1631,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7871421659521400377, guid: c91d458c12526534eb19d65378204353, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c91d458c12526534eb19d65378204353, type: 3}
+--- !u!4 &5233456974663517128 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4397208863869895446, guid: c91d458c12526534eb19d65378204353,
+    type: 3}
+  m_PrefabInstance: {fileID: 5233456974663517127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5282911218545726514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5282911218545726514, guid: fca26d3bba1898f4396e3c3a760c289e,
