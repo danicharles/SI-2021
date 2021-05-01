@@ -25,9 +25,9 @@ public class SoundManager : MonoBehaviour
         
     }
 
-    private void PlaySound(AudioClip clip) // 1
+    private void PlaySound(AudioClip clip) 
     {
-        AudioSource.PlayClipAtPoint(clip, cameraPosition); // 2
+        AudioSource.PlayClipAtPoint(clip, cameraPosition); 
     }
 
     public void PlayShootClip()
