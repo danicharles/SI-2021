@@ -885,6 +885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 10
   gotHayDestroyDelay: 1
+  dropDestroyDelay: 4
 --- !u!1001 &1524613846732587527
 PrefabInstance:
   m_ObjectHideFlags: 0
