@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
 
     public Text sheepSavedText; 
     public Text sheepDroppedText;
+
     public GameObject gameOverWindow;
 
     private void Awake()

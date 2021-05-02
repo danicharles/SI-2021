@@ -13,7 +13,7 @@ public class GameStateManager : MonoBehaviour
     public int sheepSaved; 
 
     [HideInInspector]
-    public int sheepDropped; 
+    public int sheepDropped;
 
     public int sheepDroppedBeforeGameOver;
     public SheepSpawner sheepSpawner;
@@ -24,7 +24,6 @@ public class GameStateManager : MonoBehaviour
 
         sheepSaved = 0;
         sheepDropped = 0;
-
     }
 
     // Update is called once per frame
@@ -57,6 +56,11 @@ public class GameStateManager : MonoBehaviour
 
         if (sheepDropped == sheepDroppedBeforeGameOver) 
         {
+            if(sheepSaved > HighScore.highScore)
+            {
+                HighScore.highScore = sheepSaved;
+            }
+
             GameOver();
         }
     }
