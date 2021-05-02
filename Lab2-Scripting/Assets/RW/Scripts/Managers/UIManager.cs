@@ -17,6 +17,8 @@ public class UIManager : MonoBehaviour
     {
         Instance = this;
 
+        UpdateSheepDropped();
+        UpdateSheepSaved();
     }
 
     public void UpdateSheepSaved()
@@ -26,7 +28,8 @@ public class UIManager : MonoBehaviour
 
     public void UpdateSheepDropped() 
     {
-        sheepDroppedText.text = GameStateManager.Instance.sheepDropped.ToString();
+        GameStateManager gameStateManager = GameStateManager.Instance;
+        sheepDroppedText.text = gameStateManager.sheepDropped.ToString() + "/" + gameStateManager.sheepDroppedBeforeGameOver.ToString();
     }
 
     public void ShowGameOverWindow()
