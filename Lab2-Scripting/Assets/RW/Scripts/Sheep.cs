@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Sheep : MonoBehaviour
 {
-    public float runSpeed; 
+    public float runSpeed;
     public float gotHayDestroyDelay; 
     private bool hitByHay;
 
@@ -79,5 +79,9 @@ public class Sheep : MonoBehaviour
     public void SetSpawner(SheepSpawner spawner)
     {
         sheepSpawner = spawner;
+    }
+    public void IncrementVel(float vel)
+    {
+        runSpeed += vel;
     }
 }
