@@ -80,6 +80,7 @@ public class Sheep : MonoBehaviour
     {
         sheepSpawner = spawner;
     }
+
     public void IncrementVel(float vel)
     {
         runSpeed += vel;
